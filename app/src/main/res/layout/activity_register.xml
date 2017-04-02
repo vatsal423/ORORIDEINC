@@ -1,0 +1,106 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.vatsal.ororide.register">
+
+    <TextView
+        android:id="@+id/txtreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER HERE"
+        android:gravity="center"
+        android:textColor="#f44336"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtreg"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtname"
+        android:layout_marginTop="1dp"
+        />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        android:textStyle="bold"
+        android:layout_below="@+id/edname"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtemail"
+        android:layout_marginTop="1dp"
+        />
+
+    <TextView
+        android:id="@+id/txtuserreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        android:textStyle="bold"
+        android:layout_below="@+id/edemail"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/eduserreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtuserreg"
+        android:layout_marginTop="1dp"
+        />
+
+    <TextView
+        android:id="@+id/txtpassreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textStyle="bold"
+        android:layout_below="@+id/eduserreg"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edpassreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtpassreg"
+        android:inputType="textPassword"
+        android:layout_marginTop="1dp"/>
+
+    <Button
+        android:id="@+id/btreg"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/edpassreg"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
